@@ -84,6 +84,16 @@ section{
     padding: 10px 20px;
     font-size: 16px;
 }
+.hero-text{
+    display: inline-block;
+}
+
+.hero-cta h1{
+    color: #fce138;
+    text-align: right;
+    font-style: italic;
+    font-size: 40px;
+}
 /* Hero Style End */
 
 .hero-form{
