@@ -9,7 +9,7 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* add display: flex to header container */
+/* add display: flex, justify-content, & flex-wrap to header container */
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -36,14 +36,20 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li{
-    display: inline;
+/* change the display to flex, add wrap, justify for x axis, and align for y axis */
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
+/* change the font size to view width instead of pixels */
 header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer{
