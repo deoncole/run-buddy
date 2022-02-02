@@ -36,7 +36,7 @@ header nav {
     margin: 7px 0;
 }
 
-/* change the display to flex, add wrap, justify for x axis, and align for y axis */
+/* change the display to flex, add wrap, justify for x axis, and align for y axis*/
 header nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -45,9 +45,9 @@ header nav ul{
     list-style: none;
 }
 
-/* change the font size to view width instead of pixels */
+/* change the font size to view width instead of pixels. Replace maring with padding */
 header nav ul li a{
-    margin: 0 30px;
+    padding: 10px, 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -90,6 +90,7 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-form button{
@@ -110,7 +111,7 @@ section{
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2{
@@ -181,7 +182,7 @@ section{
 
 /* remove display, padding and margin add padding text align margin and width*/
 .section-title{
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -357,4 +358,28 @@ section{
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+}
+
+/* media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+    header h1 a {
+        /* this will be applied on any screen smaller than 980px */
+        
+    }
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    header h1 {
+        /* this will be applied on any screen between 768px and 575ps */
+        
+    }
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    header h1 {
+        /* this will be applied on any screen smaller than 575px */
+        
+    }
 }
